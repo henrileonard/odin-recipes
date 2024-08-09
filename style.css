@@ -2,15 +2,56 @@
     font-family: "Monaco", "Lucida Console", "Courier New", sans-serif;
 }
 
+body,
+a {
+    background-color: khaki;
+}
+
 h1 {
     font-weight: bold;
-    color: darkgoldenrod;
+    color: chocolate;
     background-color: beige;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 a {
     font-style:oblique;
-    font-size: 15px;
-    background-color: white;
+    font-size: 20px;
+}
+.odin-recipes {
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.korean {
+    color: rgb(205, 46, 58);
+}
+.fried {
+    color: rgb(15, 100, 205);
+}
+.chicken {
+    color: black;
+}
+
+.pizza {
+    color: green;
+}
+.caprese {
+    color: red;
+}
+
+.mapo {
+    color: rgb(238, 28, 37);
+}
+.tofu {
+    color: rgb(202, 202, 12);
 }
